@@ -1,69 +1,123 @@
+.logo {
+    width: 4%;
+    margin-left: 2%;
+}
+
++ .container > * {
+    color: #353535;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 20px;
+    background: white;
+}
+
+.container {
+    grid-template-columns: repeat(6, 3fr);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.container .navbar {
+    grid-column: span 6;
+}
+/*aici */
+.align-nav{
+    display: flex;
+    margin-left: 55%;
+    align-content: center;
+}
+
 /* Navbar container */
+
 .navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+    display: flex;
+    align-items: center;
+/*    justify-content: flex-end;*/
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    background: linear-gradient(blue, purple);
+    border-radius: 1em;
 }
 
 /* Links inside the navbar */
+
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 /* The dropdown container */
+
 .dropdown {
-  float: left;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* Dropdown button */
+
 .dropdown .dropbtn {
-  font-size: 16px; 
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    ;
 }
 
 /* Dropdown content (hidden by default) */
+
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    background: linear-gradient(blue, purple);
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* Links inside the dropdown */
+
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: white;
+    float: none;
+    /*    color: black;*/
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 /* Add a grey background color to dropdown links on hover */
+
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
