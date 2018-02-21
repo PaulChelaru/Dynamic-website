@@ -1,6 +1,7 @@
 {
     "core-areas": {
         "bussines": {
+            "name": "Bussines",
             "about": "The core area is intended to provide the students with the necessary qualifications to understand the commercial framework of the business and digital business models, apply digital user data and take an innovative approach to multimedia production.",
             "knowledge": [
             "development methods for multimedia production",
@@ -22,6 +23,7 @@
          ]
         },
         "Communication": {
+            "name": "Communication",
             "about": "The core area is intended to enable the students to understand digital media and create innovative digital user experiences. The students are capable of producing digital content and useroriented communication.",
             "knowledge": [
             "key theory and method for user understanding and content production, including information architecture for digital media",
@@ -40,6 +42,7 @@
          ]
         },
         "Design": {
+            "name": "Design",
             "about": "The core area is intended to enable the students to design and develop advanced digital user interfaces based on user-oriented design principles and incorporating international development trends within digital design.",
             "knowledge": [
             "basic principles for the composition and layout of digital design in multimedia production",
@@ -62,6 +65,7 @@
          ]
         },
         "Interaction": {
+            "name": "Interaction",
             "about": "The core area is intended to enable the students to model, structure and develop complex digitaluser interfaces and to handle large data sets for presentation in digital user interfaces.",
             "knowledge": [
             "relevant technologies for developing digital user interfaces",
