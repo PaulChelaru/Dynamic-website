@@ -1,6 +1,19 @@
+main {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat( 6, minmax(20em, 3fr));
+    grid-gap: .5em;
+    grid-auto-rows: 20em;
+}
+
 .logo {
     width: 4%;
     margin-left: 2%;
+}
+
+template{
+    display: grid;
+    grid-column: span 2;
 }
 
 + .container > * {
@@ -21,19 +34,23 @@
 .container .navbar {
     grid-column: span 6;
 }
+
 /*aici */
+
+/*
 .align-nav{
     display: flex;
     margin-left: 55%;
     align-content: center;
 }
+*/
 
 /* Navbar container */
 
 .navbar {
     display: flex;
     align-items: center;
-/*    justify-content: flex-end;*/
+    /*    justify-content: flex-end;*/
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
