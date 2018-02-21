@@ -1,82 +1,615 @@
 {
-   "bussines": {
-      "about": "The core area is intended to provide the students with the necessary qualifications to understand the commercial framework of the business and digital business models, apply digital user data and take an innovative approach to multimedia production.",
-      "knowledge": [
-         "development methods for multimedia production",
-         "copyright and licensing methods in multimedia production",
-         "the company’s strategy as a basis for multimedia production",
-         "digital business models applied in practice",
-         "budgeting of multimedia productions",
-         "key methods and tools related to project management and estimation of multimedia productions"
-      ],
-      "skills": [
-         "The student has acquired the skills needed to: apply key tools and digital data to optimise multimedia production ",
-         "plan and evaluate project management and quality assurance in team-based multimedia productions",
-         "assess and analyse data and present solutions as a basis for innovative development of multimedia productions",
-         "assess, apply and communicate innovative methods in multimedia production."
-      ],
-      "competencies": [
-         "participate in teams as well as manage and adjust planning, control and quality assurance in the production of complex digital user interfaces",
-         "independently keep up to date and acquire new knowledge of business aspects that support the development of advanced digital multimedia production."
+    "core-areas": {
+        "bussines": {
+            "about": "The core area is intended to provide the students with the necessary qualifications to understand the commercial framework of the business and digital business models, apply digital user data and take an innovative approach to multimedia production.",
+            "knowledge": [
+            "development methods for multimedia production",
+            "copyright and licensing methods in multimedia production",
+            "the company’s strategy as a basis for multimedia production",
+            "digital business models applied in practice",
+            "budgeting of multimedia productions",
+            "key methods and tools related to project management and estimation of multimedia productions"
+         ],
+            "skills": [
+            "The student has acquired the skills needed to: apply key tools and digital data to optimise multimedia production ",
+            "plan and evaluate project management and quality assurance in team-based multimedia productions",
+            "assess and analyse data and present solutions as a basis for innovative development of multimedia productions",
+            "assess, apply and communicate innovative methods in multimedia production."
+         ],
+            "competencies": [
+            "participate in teams as well as manage and adjust planning, control and quality assurance in the production of complex digital user interfaces",
+            "independently keep up to date and acquire new knowledge of business aspects that support the development of advanced digital multimedia production."
+         ]
+        },
+        "Communication": {
+            "about": "The core area is intended to enable the students to understand digital media and create innovative digital user experiences. The students are capable of producing digital content and useroriented communication.",
+            "knowledge": [
+            "key theory and method for user understanding and content production, including information architecture for digital media",
+            "key theory and method within digital user experiences in relation to multimedia production, including test methods",
+            "key theory and method for planning user interaction and communication in various digital media productions"
+         ],
+            "skills": [
+            "The student has acquired the skills needed to:",
+            "collect and apply empirical data on users and situations of use in practice",
+            "transform knowledge of current digital user trends into planning and development of user experiences in advanced digital media productions",
+            "assess, adjust and present solutions for innovative communication in advanced digital media productions"
+         ],
+            "competencies": [
+            "participate in teams and contribute to the production of digital, user-oriented content and create user experiences in complex digital user interfaces",
+            "independently keep up to date and acquire new knowledge about the users’ application of technologies and media in an international digital mediascape."
+         ]
+        },
+        "Design": {
+            "about": "The core area is intended to enable the students to design and develop advanced digital user interfaces based on user-oriented design principles and incorporating international development trends within digital design.",
+            "knowledge": [
+            "basic principles for the composition and layout of digital design in multimedia production",
+            "design processes and documentation of digital design in multimedia production ",
+            "media types in multimedia production",
+            "current digital exchange formats used in multimedia production",
+            " methods for presenting data"
+         ],
+            "skills": [
+            "The student has acquired the skills needed to:s",
+            "apply key design processes for multimedia production, including documentation of the design process",
+            "apply key methods and design processes, and present solutions for the production and communication of digital user interfaces",
+            "assess and apply a user-oriented approach in a digital design process",
+            "assess and apply key international development trends to design, develop, adjust and maintain advanced digital user interfaces."
+         ],
+            "competencies": [
+            "handle different types of material for the production of digital user interfaces",
+            "handle process documentation and communication in relation to stakeholders",
+            "independently keep up to date and acquire new knowledge within international design trends, innovative technologies and advanced digital user interfaces"
+         ]
+        },
+        "Interaction": {
+            "about": "The core area is intended to enable the students to model, structure and develop complex digitaluser interfaces and to handle large data sets for presentation in digital user interfaces.",
+            "knowledge": [
+            "relevant technologies for developing digital user interfaces",
+            "key methods for modelling, structuring and developing digital user interfaces",
+            "key and current programming paradigms for developing digital user interfaces",
+            "key and current libraries and frameworks for developing advanced digital user interfaces"
+         ],
+            "skills": [
+            "pply key technologies and development environments as well as version control methods to develop digital user interfaces in a multimedia production",
+            "apply key programming principles, including control structures, functions and variables for the development of digital user interfaces",
+            "apply key technologies for handling and displaying content in the production of digital user interfaces"
+         ],
+            "competencies": [
+            "handle key technologies and methods for version control of multimedia productions",
+            "participate in teams with a view to developing digital user interfaces",
+            "handle process documentation and communication in relation to stakeholders, including planning and documentation of multimedia productions as well as data exchange via digital user interfaces"
+         ]
+        }
+    },
+    "programme-table": {
+        "table": [
+            {
+                "core": "Bussines 15 ",
+                "sem1": "5 ECTS ",
+                "sem2": "5 ECTS ",
+                "sem3": "5 ECTS ",
+                "total": "15 ECTS"
+         },
+            {
+                "core": "Communication and Presentation",
+                "sem1": "5 ECTS",
+                "sem2": "5 ECTS",
+                "sem3": "5 ECTS",
+                "total": "15 ECTS"
+         },
+            {
+                "core": "Design and Visualisation",
+                "sem1": "10 ECTS",
+                "sem2": "10 ECTS",
+                "sem3": "5 ECTS",
+                "total": "25 ECTS"
+         },
+            {
+                "core": "Interaction and Development",
+                "sem1": "10 ECTS",
+                "sem2": "10 ECTS",
+                "sem3": "5 ECTS",
+                "total": "25 ECTS"
+         },
+            {
+                "sem1": "30 ECTS",
+                "sem2": "30 ECTS",
+                "sem3": "20 ECTS",
+                "total": "80 ECTS"
+         }
       ]
-   },
-   "Communication": {
-      "about": "The core area is intended to enable the students to understand digital media and create innovative digital user experiences. The students are capable of producing digital content and useroriented communication.",
-      "knowledge": [
-         "key theory and method for user understanding and content production, including information architecture for digital media",
-         "key theory and method within digital user experiences in relation to multimedia production, including test methods",
-         "key theory and method for planning user interaction and communication in various digital media productions"
-      ],
-      "skills": [
-         "The student has acquired the skills needed to:",
-         "collect and apply empirical data on users and situations of use in practice",
-         "transform knowledge of current digital user trends into planning and development of user experiences in advanced digital media productions",
-         "assess, adjust and present solutions for innovative communication in advanced digital media productions"
-      ],
-      "competencies": [
-         "participate in teams and contribute to the production of digital, user-oriented content and create user experiences in complex digital user interfaces",
-         "independently keep up to date and acquire new knowledge about the users’ application of technologies and media in an international digital mediascape."
+    },
+
+    "exam-tabel": {
+        "tabel2": [
+            {
+                "time": "At the end of the 1st semester",
+                "exam": "First - semester exam - Multimedia Production 1",
+                "etcs": "30 ECTS",
+                "ass": "7-point grading scale Internal"
+         },
+            {
+                "time": "At the end of the 2nd semester",
+                "exam": "Second - semester exam - Multimedia Production 2",
+                "etcs": "30 ECTS",
+                "ass": "7-point grading scale External"
+         },
+            {
+                "time": "In the course or at the end of the third semester",
+                "exam": "Third - semester exam - Multimedia Production 2",
+                "etcs": "20 ECTS",
+                "ass": "7-point grading scale Internal"
+         },
+            {
+                "time": "In the course or at the end of the third semester",
+                "exam": "Elective programme element",
+                "etcs": "10 ECTS",
+                "ass": "7-point grading scale Internal"
+         },
+            {
+                "time": "At the end of the internship",
+                "exam": "Intership exam",
+                "etcs": "15 ECTS",
+                "ass": "7-point grading scale Internal"
+         },
+            {
+                "time": "At the end of the fourth semester",
+                "exam": "Final exam",
+                "etcs": "15 ECTS",
+                "ass": "7-point grading scale External"
+         }
       ]
-   },
-   "Design": {
-      "about": "The core area is intended to enable the students to design and develop advanced digital user interfaces based on user-oriented design principles and incorporating international development trends within digital design.",
-      "knowledge": [
-         "basic principles for the composition and layout of digital design in multimedia production",
-         "design processes and documentation of digital design in multimedia production ",
-         "media types in multimedia production",
-         "current digital exchange formats used in multimedia production",
-         " methods for presenting data"
-      ],
-      "skills": [
-         "The student has acquired the skills needed to:s",
-         "apply key design processes for multimedia production, including documentation of the design process",
-         "apply key methods and design processes, and present solutions for the production and communication of digital user interfaces",
-         "assess and apply a user-oriented approach in a digital design process",
-         "assess and apply key international development trends to design, develop, adjust and maintain advanced digital user interfaces."
-      ],
-      "competencies": [
-         "handle different types of material for the production of digital user interfaces",
-         "handle process documentation and communication in relation to stakeholders",
-         "independently keep up to date and acquire new knowledge within international design trends, innovative technologies and advanced digital user interfaces"
+    },
+    
+    "exams-more-page": {
+        "more": {
+            "about": [
+            "Students who have commenced a semester cannot withdraw from the exams scheduled for that semester. To pass the exam, students must at least be awarded the grade 02.",
+            "All programme elements are concluded with an exam, which is assessed according to 7-point grading scale. An overview of the scheduling of programme exams is found below."
+         ],
+            "forms": "The programme contains different exam forms reflecting the content and working methods of the various classes.",
+            "groupwork": [
+            "Group work and group size A group has been formed when the group members have registered with the lecturer/supervisor who is resposible for the group formation process. The group formation process is not complete until all students are officially member of a group, which means that all group members are responsible for the material produced by the group.",
+            "Requirements regarding group size are stated in the project description for the individual exam. The head of education may grant an exemption from the requirements regarding group size based on a written application, which must be submitted during the exam project period."
+         ],
+            "groupwork2": "If the members of a group decide to dissolve the group in the middle of the process, all members of the group will be entitled to use the material which has been produced by the group up until the time of dissolution. A group is not considered dissolved until the group's supervisor has been informed.",
+            "member": "If a group member is excluded from a group, the excluded group member must be allowed to use the material which excluded member has produced. A group member is not considered excluded until the group's supervisor has been informed.  ",
+            "reExam": [
+            "Re-exam due to documented illness or for other documented acceptable reasons are held immediately before or at the beginning of the following semester.",
+            "If KEA estimates that the student has been almost fully active in the project work/the compulsory programme elements/internship, a make-up exam will be held based on the project work/the production and profile/the report and products produced by the student in the course of the internship.",
+            "If KEA estimates that the student has not been almost fully active in the project work/the compulsory programme elements/intership, the make-up exam will take the form of a new project exam/substitution assignment/intership."
+         ],
+            "passing": "The first year exam of the first semester exam and the second semester exam. Students must pass both exams before the end of the first year of study to be able to continue on the programme.",
+            "specialExam": "Subject to application, special exam conditions are offered for students with physical or mental impairment and for students with similar difficulties, if deemed necessary by KEA to provide the students concered with equal opportunities in the exam situation. Special exam conditions must, however,not change the standard of the exam. Applications must be submitted no later than four weeks before the exam.",
+            "lang": "Exams are held in English."
+        }
+    },
+    
+    "1st-semester-page_exams": {
+        "first": {
+            "points": "ECTS points: 30 ",
+            "semExam": [
+            "The objective is to test the students understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 1.",
+            "At this exam, students must present one or more product examples submitted in the first semester. During the first semester, the students work on a digital portfolio, with product examples from the classes. The portfolio forms the basis of the first semester exam."
+         ],
+            "internal": "Individual oral exam based on one or more product examples submitted in the first semester. The exam is held after the first semester.",
+            "objectives": "The learning objectives for first semester exam are identical to the learning objectives for the first semester.",
+            "exam": [
+            "The exam covers the core areas of the first semester compulsory programme element with focus on a digital portfolio.",
+            "The exam consists of three elements: 1.Presentation 2.Examination 3.Grading",
+            "The specific requirments regarding the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme."
+         ],
+            "ass": [
+            "The exam is assessed by one or more examiners according to the 7-point grading scale.",
+            "An individual grade is awarded based on an overall assessment of the digital portfolio, the presentation and the individual exam. The assessment is based on the extent to which the goals and learning objectives of the first semester have been fulfilled as described in the curriculum."
+         ]
+        }
+    },
+    "2nd semester page_exams": {
+        "second": {
+            "points": "ECTS points: 30 ",
+            "semExam": [
+            "The objective is to test the students understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 2.",
+            "The exam is to demonstrate that student is able to: 1. Communicate visually to a target group 2. Develop an interactive digital product, taking into account the stakeholders 3. Carry out a project in a team"
+         ],
+            "external": "Oral individual or group exam based on project work carried out in groups. The exam is held after the second semester.",
+            "projectwork": [
+            "Project work must be interdisciplinary and problem-oriented, resulting in a functioning digital prototype and a report documanting the development work and the product.",
+            "A detailed description of the project requirements can be found on the learning platform of the Multimedia Design and Communication programme and is intended to ensure that essential areas in the second semester are broadly combined. The project description sets out the requirements regarding group size, product scope and process documentation. It is made available to the students, examiner and co-examiner at the beginning of the project period."
+         ],
+            "submission": "Students must submit a functioning digital prototype and a project report. The report may not exceed 10 standard pages, plus 8 standard pages per group member. Front page, table of contents, bibliography and appendices are not included in the maximum nuber of pages. A standard page is 2,400 characters with spaces and footnotes. In connection with group reports, the individual student's contribution must be clearly stated.",
+            "exam": [
+            "The exam covers the core areas of the second semester compulsory programme element and is based on product, report and process.",
+            "The exam consists of three elements: 1. Presentation 2. Examination 3. Grading",
+            "The specific requirements as regards the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme, and are forwarded to the co-examiner."
+         ],
+            "ass": [
+            "The exam is assessed by the examiner and an external co-examiner according to the 7-point grading scale.",
+            "An individual grade is awarded based on an overall assessment of the report, digital prototype, presentation and the individual exam. The assessment is based on the extent to which the goals and learning objectives of the second semester have been fulfilled as described in the curriculum."
+         ],
+            "re-exam": "Student who fail the first exam attempt are offered two more attempts. Re-exams take place as soon as possible. Students are entitled to a re-exam based on the same project, a revised project or a new project. KEA provides advice on the advantages and disadvantages of the three methods in relation to the individual student's work. The purpose of the re-exam is the same as for the ordinary exam."
+        }
+    },
+    "3rd-semester-page_exams": {
+        "third": {
+            "points": "ECTS points: 30 ",
+            "semExam": [
+            "The objective is to test the students understanding of the theory, method and tools acquired through the compulsory programme element: Multimedia Production Advanced, and the students ability to develop a professional profile in relation to the current requirements in the area.",
+            "An exam assignment constitutes the basis of the exam :",
+            "The specific requirements regarding the exam assignment are published on the learning platform for the Multimedia Design and Communication programme."
+         ],
+            "objectives": "The learning objectives for the third-semester exam are identical to the learning objectives for the third-semester compulsory programme element. ",
+            "exam": "The exam consists of: 1. Presentation 2. Examination 3. Grading",
+            "internal": [
+            "Individual oral exam based on one or more product examples submitted in the third semester. The exam is held in the course of or after the third semester",
+            "The specific requirements regarding the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme."
+         ],
+            "ass": [
+            "The exam is assessed by one or more examiners according to the 7-point grading scale.",
+            "Students are awarded one grade for their overall performance, covering production, profile, presentation and exam. The assessment is based on the extent to which the students have understood the third-semester goals and learning objectives, as described in the curriculum, and how they are presented."
+         ],
+            "reExam": "Students who fail the first exam attempt are offered two more attempts. The re-exam is held immediately before the beginning of the following semester. Students are entitled to a re-exam based on the same project, a revised project or a new project."
+        }
+    },
+    "4th-semester-page_exams": {
+        "fourth": {
+            "points": "ECTS points: 15",
+            "internship": {
+                "requirements": "The internship is concluded with an internship report, a presentation and a discussion of one or more products developed by the student during the internship, as well as of the professional experience gained by the student. The requirements for the report and presentation are described under the guidelines for forth-semester internships.",
+                "objectives": "The learning objectives for the internship exam are identical to the learning objectives for the internship.",
+                "exam": [
+               "The exam is internal and intended to assess the students' individual learning based on the learning objectives for the internship.",
+               "The exam consists of:",
+               "1. Presentation",
+               "2. Examination",
+               "3. Grading"
+            ],
+                "assessment": [
+               "The exam is assessed internally according to the 7-point grading scale.",
+               "Students are awarded one grade for their overall performance, covering their report, presentation and a discussion. The assessment is based on the extent to which the students have understood the internship goals and learning objectives, as described in the curriculum, and how they are presented."
+            ],
+                "reExam": "Students who fail the first exam attempt are offered two more attempts. Re-exams take place as soon as possible. Students are entitled to a re-exam based on the same project, a revised project or a new project. KEA provides advice on the advantages and disadvantages of the three methods in relation to the individual student's work. The purpose of the re-exam is the same as for the ordinary exam.",
+                "illness": "Re-exams due to documented illness or for other acceptable reasons are held before the final exam in the fourth semester."
+            },
+            "final": {
+                "requirements": [
+               "The objective of the final exam project is to document whether the student has acquired the qualifications needed to combine theoretical, methodological and practical elements and to communicate these.",
+               "The problem statement must be central to the multimedia profession and be prepared by the student in cooperation with a public or private company. Alternatively, the final exam project can be based on the student starling up his or her own business. KEA must approve the problem statement. The project concludes with a report and a product. The product must be a digital multimedia production.",
+               "The final exam project must not exceed 30 standard pages for one student + 10 standard pages for each additional group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. Appendices will not be assessed. A standard page is 2.400 characters with spaces and footnotes.",
+               "The requirements for the report, presentation and product(s) are described in the fourth-semester guide for final projects, which is available on the learning platform for the Multimedia Design and Communication programme. The project description defines group size, the scope of the product(s) and process documentation as well as submission deadlines and requirements. The project description is made available to students, lecturers and co-examiners.",
+               "Students who are able to document a relevant, specific impairment may apply for exemption from the requirement that spelling and writing skills are included in the assessment. The application must be submitted to the head of education no later than four weeks prior to the exam."
+            ],
+                "objectives": [
+               "The final exam project is intended to demonstrate that the level of achievement expected at the end of the programme has been reached see Annex 1 of Ministerial Order no. 1061 of 14 November 2012 on the Academy Profession Degree Programme in Multimedia Design and Communication:",
+               "The intended learning outcome includes the knowledge. skills and competencies that an AP Graduate in Multimedia Design and Communication is to acquire during the programme."
+            ],
+                "ass": [
+               "The exam is external and assessed according to the 7-point grading scale.",
+               "The exam consists of a project and an oral part. One aggregate grade is awarded. To sit the exam, students must have passed their internship exam and all other exams on the programme."
+            ],
+                "exam": [
+               "The exam is external and covers the core areas of knowledge, qualifications and competencies which a multimedia designer is to acquire during the programme.",
+               "The exam consists of:",
+               "1. Presentation",
+               "2. Examination",
+               "3. Grading",
+               "The specific requirements as regards the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme. and are forwarded to the co-examiner."
+            ],
+                "reExam": [
+               "Students who fail the first exam attempt are offered two more attempts.",
+               "Re-exams are held within two months of the first attempt.",
+               "Students are entitled to a re-exam based on the same project, a revised project or a new project. KEA provides advice on the advantages and disadvantages of the three methods in relation to the individual student's work. The purpose of the re-exam is the same as for the ordinary exam."
+            ],
+                "illness": [
+               "If KEA estimates that the student has been almost fully active during the exam project period, the re-exam will be based on the initial problem statement.",
+               "If KEA estimates that the student has not been almost fully active during the exam project period, the re-exam will be based on a new problem statement.",
+               "If KEA estimates that the student has been almost fully active during the internship, the re-exam will be based on the report and the products produced by the student in the course of the internship.",
+               "If KEA estimates that the student has not been almost fully active during the internship, the student must complete another internship."
+            ]
+            }
+        }
+    },
+    "teaching-page": {
+        "Teaching": {
+            "about": "The teaching is a combination of classroom instructions, lectures, workshops, study groups, exercises, major project work and not least guidance. The teaching is planned on the basis of relevant business practice and applied theory. On the programme, teaching methods are used which are aimed at developing the students' independence as well as their collaborative and innovative skills. In so far as is relevant, the programme covers issues like entrepreneurship, environmental issues and the dynamics of intercultural encounters.",
+            "learning": "The teaching is interdisciplinary and practice-oriented. It primarily takes place in an open environment rather than the traditional classroom setting. The learning environment is designed to be flexible, so as to allow lecturers and students to meet in both formal and informal settings to tackle interdisciplinary problems in connection with projects and tasks undertaken for public and private organisations.",
+            "progression": "The programme is structured around four core areas, which are further divided into a number of sub-topics, each with their own learning objectives. The core areas, courses and learning objectives are divided between three compulsory semesters to ensure the same academic/professional Curriculum for the Academy Profession Degree Programme in Multimedia Design and Communication Copenhagen School of Design and Technology 24 progression and level of complexity for all students. The specialisation takes place in connection with the elective subjects in the third semester. The Internship in the fourth semester ensures that students acquire practical knowledge about the profession and learn how to tackle practical issues. The final project in the fourth semester adds new perspectives to the student's specialisation and internship through the application of academic theory and method to a practical issue.",
+            "projectWork": "KEA places great emphasis on project work, on contact with the business community and on use of the latest technologies. The project-based working method provides students with important teamwork experience, and through working in a problem-oriented study environment, student acquire experience with the formulation of problem statements and problem solving. Process and method are essential parts of the learning environment at all times and also form part of the basis assessment in connection with tests and exams.",
+            "motivation": "An important prerequisite for completing the programme is active participation in classes, project work and guidance sessions. Students are expected to share in the responsibility for their own learning, which requires motivation and commitment, independence, plenty of initiative and critical thinking. This is a condition for students being able to participate in the organisation of their own work - not least in connection with projects.",
+            "international": "KEA helps students find programmes at foreign educational institutions with learning objectives equivalent to the Multimedia Design and Communication programme."
+        }
+    },
+    "studyabroad-page": {
+        "studyAbroad": [
+         "Kea may grant the transfer of programme elements or parts thereof according to this curriculum which are passed at another educational institution and which are equivalent to programme elements or parts thereof in this curriculum. If the programme element in question has been assessed according to the 7-point grading scale at the institution where the exam has been taken and is equivalent to a programme element in this curriculum, the grade may be transferred.",
+         "Kea may grant the transfer of programme elements completed at another Danish or foreign institution of higher education to replace programme elements covered by this curriculum. If a credit transfer is granted, programme elements are deemed to have been completed if they have been passed in accordance with the rules applicable to the programme in question. The assessment is transferred as 'passed'"
       ]
-   },
-   "Interaction": {
-      "about": "The core area is intended to enable the students to model, structure and develop complex digitaluser interfaces and to handle large data sets for presentation in digital user interfaces.",
-      "knowledge": [
-         "relevant technologies for developing digital user interfaces",
-         "key methods for modelling, structuring and developing digital user interfaces",
-         "key and current programming paradigms for developing digital user interfaces",
-         "key and current libraries and frameworks for developing advanced digital user interfaces"
-      ],
-      "skills": [
-         "pply key technologies and development environments as well as version control methods to develop digital user interfaces in a multimedia production",
-         "apply key programming principles, including control structures, functions and variables for the development of digital user interfaces",
-         "apply key technologies for handling and displaying content in the production of digital user interfaces"
-      ],
-      "competencies": [
-         "handle key technologies and methods for version control of multimedia productions",
-         "participate in teams with a view to developing digital user interfaces",
-         "handle process documentation and communication in relation to stakeholders, including planning and documentation of multimedia productions as well as data exchange via digital user interfaces"
-      ]
-   }
+    },
+    "intern-page": {
+        "internship": {
+            "about": "Internships take place in the fourth semester and must correspond to 15 ECTS.",
+            "objectives": [
+            "The student has acquired knowledge of:",
+            "the requirements and expectations of companies with regard to the multimedia designer's knowledge, skills and attitudes towards the work",
+            "the practice-related use of theory, method and tools by the profession and within the subject area.",
+            "The student has acquired the skills needed to:",
+            "apply versatile technical and analytical working methods of relevance to employment within the sector",
+            "assess practice-oriented issues and problems, and present possible solutions",
+            "communicate practice-oriented issues and reasoned solution proposals",
+            "The student has acquired the competencies needed to:",
+            "handle development-oriented, practical and professional situations of relevance to the profession",
+            "acquire new knowledge, skills and competencies of relevance to the profession",
+            "manage the structuring and planning of day-to-day tasks within the profession",
+            "participate in disciplinary and interdisciplinary cooperation with a professional approach",
+            "Curriculum for the Academy Profession Degree Programme in Multimedia Design and Communication Copenhagen School of Design and Technology 23"
+         ],
+            "ass": "The internship is concluded with an exam (internship exam). The exam is internal and assessed according to the 7-point grading scale. The learning objectives defined for the programme element are identical to the learning objectives for the exam.",
+            "requirements": "The internship is concluded with an internship report, a presentation and a discussion of one or more products developed by the student during the internship, as well as of the professional experience gained by the student. The requirements for the report and presentation are described under the guidelines for forth-semester internships.",
+            "rules": "The internship can form the basis of the student’s final project and can be organised in a flexible and differentiated manner. Students can choose to combine internships in two or more organisations or different types of internships. The conditions governing internships are described in more detail on the learning platform for the Multimedia Design and Communication programme before the fourth semester begins. The internship is unpaid. Based on the general learning objectives for the internship period, students develop their own individual learning objectives for their internship in cooperation with the host company and KEA. During the internship, students are assigned a supervisor from the programme and a contact/supervisor from the host organisation. The internship is concluded with an exam (internship exam)"
+        }
+    },
+    "semesters-pages-1st-sem": {
+        "FirstSemester": {
+            "about": [
+            "Compulsory programme element Multimedia Production 1, 30 ECTS, including:",
+            "5 ECTS from the core area Business",
+            "5 ECTS from the core area Communication and Presentation",
+            "10 ECTS from the core area Design and Visualisation",
+            "10 ECTS from the core area Interaction Development"
+         ],
+            "content": "The first compulsory programme element is intended to provide the student with the qualifications needed to understand the company's commercial framework and the multimedia designer's role in the value chain in a multimedia production. The student must be able to understand digital media and to define, produce and present solutions for and produce digital user interfaces.",
+            "LearningObjectives": {
+                "knowledge": {
+                    "business": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "development methods for multimedia production",
+                  "copyright and licensing methods in multimedia production",
+                  "the company's strategy as a starting point for multimedia production and the multimedia production and the multimedia designer's position in the value chain."
+               ],
+                    "communication": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "digital media",
+                  "central theory and methods for user understanding and digital content production",
+                  "central test methods for multimedia production"
+               ],
+                    "design": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "basic principles for the composition and layout of digital design in multimedia production",
+                  "design processes and documentation of digital design in multimedia production",
+                  "media terms for multimedia production",
+                  "current digital exchange formats for multimedia production"
+               ],
+                    "interaction": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "the structure and use of the Internet, with particular emphasis on understanding client server relationships and their importance for the development of digital interfaces",
+                  "appropriate technologies for the development of digital interfaces",
+                  "key methods for modelling, structuring and development of digital interfaces"
+               ]
+                },
+                "skills": {
+                    "business": [
+                  "The student has acquired the skills needed to:",
+                  "use key theories, methods and tools for managing a simple multimedia production"
+               ],
+                    "communication": [
+                  "The student has acquired the skills needed to:",
+                  "collect and use empirical data about users and usage situations in practice",
+                  "produce digital content at a basic level based on user understanding",
+                  "plan and conduct user testing of a multimedia production"
+               ],
+                    "design": [
+                  "The student has acquired the skills needed to:",
+                  "use central design processes for multimedia production, including documentation of the design process",
+                  "use key theories, tools and methods for design and development of simple digital user interfaces"
+               ],
+                    "interaction": [
+                  "The student has acquired the skills needed to:",
+                  "use key methods for modelling and structuring by developing simple digital user interfaces in a multimedia production",
+                  "use key technologies and development environments to develop simple digital user interfaces in a multimedia production",
+                  "use key technologies and methods of version control for a multimedia production"
+               ]
+                },
+                "competencies": {
+                    "business": [
+                  "The student has acquired the competencies needed to:",
+                  "manage relevant methods and tools for planning and managing a simple multimedia production"
+               ],
+                    "communication": [
+                  "The student has acquired the competencies needed to:",
+                  "manage the development of communication for simple digital interfaces"
+               ],
+                    "design": [
+                  "The student has acquired the competencies needed to:",
+                  "manage different types of material for the production of simple digital user interfaces"
+               ],
+                    "interaction": [
+                  "The student has acquired the competencies needed to:",
+                  "develop simple digital user interface",
+                  "manage key technologies and methods for development and version control of simple digital user interfaces"
+               ]
+                }
+            },
+            "assessment": [
+            "The compulsory programme element is concluded with an exam (Multimedia Production 1).",
+            "The exam is assessed by an internal examiner according to the 7-point grading scale. The learning objectives defined for the programme element are identical to the learning objectives for the exam. For further information on exam form and structure etc., reference is made to the institution specific part of the curriculum."
+         ]
+        }
+    },
+
+    "semesters-pages-2nd-sem": {
+        "SecondSemester": {
+            "about": [
+            "Compulsory programme element Multimedia 2, 30 ECTS, including:",
+            "5 ECTS from the core area Business",
+            "5 ECTS from the core area Communication and Presentation",
+            "10 ECTS from the core area Design and Visualisation",
+            "10 ECTS from the core area Interaction Development"
+         ],
+            "content": "The second compulsory programme element is intended to provide the student with the qualifications needed to plan multimedia productions involving several participants. The student must be able to design and create digital user experiences by means of a user oriented method and key programming principles.",
+            "LearningObjectives": {
+                "knowledge": {
+                    "business": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "the company's stakeholders and the company's resource base",
+                  "how to use tools and data for the optimisation of multimedia production",
+                  "central methods and tools for project management and estimating multimedia productions"
+               ],
+                    "communication": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "central methods and theory for digital content production in a multimedia production, including architecture",
+                  "central theory and methods within digital user experiences in relation to multimedia production"
+               ],
+                    "design": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "relevant theories, tools and methods for design and development of user centered design and user experience",
+                  "methods for presentation of data"
+               ],
+                    "interaction": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "key technologies for data persisting",
+                  "central and current programming paradigms for development of digital user interfaces",
+                  "data formats and the exchange of limited data sets, synchronously and asynchronously with the server"
+               ]
+                },
+                "skills": {
+                    "business": [
+                  "The student has acquired the skills needed to:",
+                  "use important tools and digital data for the optimisation of multimedia production",
+                  "plan and evaluate the project management and quality assurance in team-based multimedia productions"
+               ],
+                    "communication": [
+                  "The student has acquired the skills needed to:",
+                  "apply and combine central methods to planning and production of user-centered content in team-based multimedia productions",
+                  "use important theory, methods and tools to support digital user experiences, including test methods"
+               ],
+                    "design": [
+                  "The student has acquired the skills needed to:",
+                  "apply and combine multiple media forms of expression for design and production of user experience in digital user interfaces",
+                  "apply core methods, design processes, propose solutions for the production and dissemination of digital interfaces",
+                  "evaluate and work with the graphical material to ensure a consistent look for a multimedia production",
+                  "evaluate and apply user-centered methods in a digital design process"
+               ],
+                    "interaction": [
+                  "The student has acquired the skills needed to:",
+                  "use core programming principles, including control structures, functions and variables for the development of digital user interfaces",
+                  "apply key technologies for managing and displaying content in the production of digital user interfaces",
+                  "apply key technologies, methods and data formats for the exchange and presentation of data in digital user interfaces"
+               ]
+                },
+                "competencies": {
+                    "business": [
+                  "The student has acquired the competencies needed to:",
+                  "participate in teams as well as handle and align the planning, management and quality assurance in the production of complex digital user interfaces"
+               ],
+                    "communication": [
+                  "The student has acquired the competencies needed to:",
+                  "participate in teams, produce digital user-oriented content and create user experiences in complex digital user interfaces"
+               ],
+                    "design": [
+                  "The student has acquired the competencies needed to:",
+                  "manage process documentation and communication to stakeholders",
+                  "participate in teams and manage the design and development of complex digital user interfaces"
+               ],
+                    "interaction": [
+                  "The student has acquired the competencies needed to:",
+                  "participate in teams for the development of complex digital user interfaces",
+                  "manage process documentation and dissemination to stakeholders, including the planning and documentation of multimedia productions and data exchange in digital user interfaces"
+               ]
+                }
+            },
+            "assessment": [
+            "The compulsory programme element is concluded with an exam (Multimedia Production 2).",
+            "The exam is assessed by an external co-examiner according to the 7-point grading scale. The learning objectives defined for the programme element are identical to the learning objectives for the exam. For further information on exam form and structure etc., reference is made to the institution specific part of the curriculum."
+         ]
+        }
+    },
+    "semesters-pages-3th-sem": {
+        "ThirdSemester": {
+            "about": [
+            "Compulsory programme element Multimedia Production 3, 20 ECTS points including:",
+            "5 ECTS from the core are Bussines",
+            "5 ECTS from the core area Communication and Presentation",
+            "5 ECTS from the core area Design and Visualisation",
+            "5 ECTS from the core area Interaction Development"
+         ],
+            "content": "The third compulsory programme element is intended to provide the student with the qualifications needed to assess and apply international development trends to create innovative user experiences in digital media and user interfaces. The student must be able to handle and present large data sets in a digital user interface.",
+            "LearningObjectives": {
+                "knowledge": {
+                    "business": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "how to use digital business models",
+                  "budgeting multimedia productions"
+               ],
+                    "communication": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "international digital trends and different user groups' use of digital media and technologies",
+                  "central theory and methods for the planning of user interaction and communication in various digital media productions"
+               ],
+                    "design": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "methods for presenting data",
+                  "current international trends in digital design"
+               ],
+                    "interaction": [
+                  "The student has gained development based knowledge and an understanding of:",
+                  "central and current libraries and frameworks for the development of advanced digital user interfaces",
+                  "data structures, data formats and the exchange of complex data sets with servers"
+               ]
+                },
+                "skills": {
+                    "business": [
+                  "The student has acquired the skills needed to:",
+                  "assess and analyse data and draw up solutions as the basis for innovative development of multimedia productions",
+                  "evaluate, use and disseminate innovative methods in multimedia production"
+               ],
+                    "communication": [
+                  "The student has acquired the skills needed to:",
+                  "translate knowledge about current digital user trends for planning and development of user experiences in advanced digital media productions",
+                  "evaluate, adjust, present solutions for innovative communication in advanced digital media productions",
+                  "communicate support for digital user experiences to stakeholders"
+               ],
+                    "design": [
+                  "The student has acquired the skills needed to:",
+                  "evaluate and apply the main international development trends to the design, development, adjustment and maintenance of advanced digital user interfaces"
+               ],
+                    "interaction": [
+                  "The student has acquired the skills needed to:",
+                  "apply key technologies for the exchange and presentation of complex data sets in digital user interfaces",
+                  "evaluate, set-up, choose and use current libraries and frameworks for innovative developments of advanced digital user interfaces in a multimedia production",
+                  "communicate the development process to stakeholders"
+               ]
+                },
+                "competencies": {
+                    "business": [
+                  "The student has acquired the competencies needed to:",
+                  "keep up to date and independently acquire new knowledge within the business aspects that support the development of advanced digital multimedia production"
+               ],
+                    "communication": [
+                  "The student has acquired the competencies needed to:",
+                  "independently stay up to date and acquire new knowledge about users' use of technologies and media in an international digital media landscape"
+               ],
+                    "design": [
+                  "The student has acquired the competencies needed to:",
+                  "independently keep up to date and acquire new knowledge in the field of international design trends, innovative technologies and advanced digital user interfaces"
+               ],
+                    "interaction": [
+                  "The student has acquired the competencies needed to:",
+                  "independently keep up to date and acquire new knowledge within the latest international technology trends as well as innovative development foradvanced multimedia productions with special emphasis on user interfaces"
+               ]
+                }
+            },
+            "assessment": [
+            "The compulsory programme element is concluded with an exam (Multimedia Production 3).",
+            "The exam is assessed by an internal examiner according to the 7-point grading scale. The learning objectives defined for the programme element are identical to the learning objectives for the exam. For further information on exam form and structure etc., reference is made to the institution specific part of the curriculum."
+         ]
+        }
+    },
+    "semesters-pages-4th-sem": {
+        "FourthSemester": {
+            "about": [
+            "Internship",
+            "Internships take place in the fourth semester and must correspond to 15 ECTS."
+         ]
+        }
+    }
 }
