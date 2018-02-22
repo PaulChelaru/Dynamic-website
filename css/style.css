@@ -1,7 +1,11 @@
 main {
     margin: auto;
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat( auto-fill ,minmax(70em, 2fr));
+=======
+    grid-template-columns: repeat( 6, minmax(20em, 3fr));
+>>>>>>> parent of ffef507... Cat de cat prima pagina
     grid-gap: .5em;
     grid-auto-rows: 20em;
 }
@@ -11,6 +15,7 @@ main {
     margin-left: 2%;
 }
 
+<<<<<<< HEAD
 body{
     max-width: 1500px;
             margin: auto;
@@ -73,6 +78,11 @@ background: linear-gradient(to bottom, #1a24fb 0%,#5525fb 50%,#6325fb  51%,#8e26
     grid-column: span 1;
     grid-row: span 28;
     border-radius: 4px;
+=======
+template{
+    display: grid;
+    grid-column: span 2;
+>>>>>>> parent of ffef507... Cat de cat prima pagina
 }
 
 + .container > * {
@@ -107,7 +117,6 @@ background: linear-gradient(to bottom, #1a24fb 0%,#5525fb 50%,#6325fb  51%,#8e26
 /* Navbar container */
 
 .navbar {
-    grid-column: span 2;
     display: flex;
     align-items: center;
     /*    justify-content: flex-end;*/
