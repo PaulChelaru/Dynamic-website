@@ -1,4 +1,5 @@
 {
+    
     "core-areas": {
         "bussines": {
             "name": "Bussines",
@@ -22,6 +23,7 @@
             "independently keep up to date and acquire new knowledge of business aspects that support the development of advanced digital multimedia production."
          ]
         },
+
         "Communication": {
             "name": "Communication",
             "about": "The core area is intended to enable the students to understand digital media and create innovative digital user experiences. The students are capable of producing digital content and useroriented communication.",
@@ -167,6 +169,7 @@
     
     "exams-more-page": {
         "more": {
+            "name": [First Semester Exam - Multimedia Production I],
             "about": [
             "Students who have commenced a semester cannot withdraw from the exams scheduled for that semester. To pass the exam, students must at least be awarded the grade 02.",
             "All programme elements are concluded with an exam, which is assessed according to 7-point grading scale. An overview of the scheduling of programme exams is found below."
