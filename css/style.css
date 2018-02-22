@@ -1,7 +1,7 @@
 main {
     margin: auto;
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(70em, 2fr));
+    grid-template-columns: repeat( auto-fill ,minmax(70em, 2fr));
     grid-gap: .5em;
     grid-auto-rows: 20em;
 }
@@ -9,6 +9,11 @@ main {
 .logo {
     width: 4%;
     margin-left: 2%;
+}
+
+body{
+    max-width: 1500px;
+            margin: auto;
 }
 
 nav {
@@ -19,6 +24,9 @@ nav {
 
 
 /* template */
+.title{
+    font-size: 300%;
+}
 article{
 /*    grid-column: span 3;*/
     display: grid;
@@ -35,6 +43,7 @@ article .knowledge{
     display: grid;
     grid-column: span 1;
     grid-row: span 2;
+    border-radius: 4px;
 }
 
 article .skills{
@@ -43,6 +52,7 @@ article .skills{
     display: grid;
     grid-column: span 1;
     grid-row: span 2;
+    border-radius: 4px;
 }
 
 article .competencies{
@@ -51,6 +61,7 @@ article .competencies{
     display: grid;
     grid-column: span 1;
     grid-row: span 2;
+    border-radius: 4px;
 }
 
 + .container > * {
