@@ -1,15 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
 .logo {
-    width: 4%;
+    width: 2%;
     margin-left: 2%;
 }
 
 body{
     max-width: 1500px;
-            margin: auto;
+    margin: auto;
+    background: url(group_3_preview.jpeg) no-repeat 50% 50%;*/
+   background-size: cover;
 }
 
+nav{
+    grid-column: span 4;
+}
+
+footer img{
+    grid-column: span 4;
+    width: 100%;
+    
+}
 .navbar {
-    grid-column: span 2;
+    grid-column: span 4;
     display: flex;
     align-items: center;
     /*    justify-content: flex-end;*/
