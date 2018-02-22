@@ -11,7 +11,7 @@
 body{
     max-width: 1500px;
     margin: auto;
-    background: url(group_3_preview.png) no-repeat 50% 50%;
+    background: url(group_3_preview.jpeg) no-repeat 50% 50%;
    background-size: cover;
 }
 
@@ -19,11 +19,14 @@ nav{
     grid-column: span 4;
 }
 
-footer img{
-    grid-column: span 4;
+.img-btm{
+     grid-column: span 4;
+    position: absolute;
     width: 100%;
-    
+    bottom: 0px;
 }
+
+
 .navbar {
     grid-column: span 4;
     display: flex;
